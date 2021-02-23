@@ -42,7 +42,6 @@ If you find this repo useful, you may cite:
 ## Installation
 Make sure that you have **Python 3.5+** and **pip** installed. We recommend installing the latest version of `rlcard` with `pip`:
 
-```
 git clone https://github.com/datamllab/rlcard.git
 cd rlcard
 pip install -e .
@@ -68,6 +67,14 @@ conda install -c toubun rlcard
 ```
 
 Conda installation only provides the card environments, you need to manually install Tensorflow or Pytorch on your demands.
+
+Install libraries
+
+```
+python3 -m venv env
+source env/bin/activate
+pip3 install -r requirements.txt
+```
 
 ## Examples
 Please refer to [examples/](examples). A **short example** is as below.
